@@ -1,0 +1,24 @@
+{
+  "name": "backendspk-main",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "chart.js": "^3.9.1",
+    "chartjs-node-canvas": "^4.1.6",
+    "cors": "^2.8.5",
+    "docx": "^8.5.0",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "mysql2": "^3.15.3",
+    "pdfkit": "^0.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
